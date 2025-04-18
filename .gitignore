@@ -1,0 +1,16 @@
+# 忽略整個temp_data資料夾
+temp_data/
+
+# 或者只忽略特定類型的檔案
+*.xml
+*.json
+
+# 若希望保留temp_data結構但忽略內容，可以這樣做
+# temp_data/*
+# !temp_data/.gitkeep
+
+# 其他常見需要忽略的檔案
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
